@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GlauCAM – Detección Temprana de Glaucoma</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f7f7f7;
+      color: #333;
+      scroll-behavior: smooth;
+    }
+    header {
+      background-color: #e6f0fa;
+      text-align: center;
+      padding: 1.5rem 0;
+      border-bottom: 2px solid #4a90e2;
+    }
+    header img {
+      width: 200px;
+      max-width: 80%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+    nav {
+      background-color: #4a90e2;
+      text-align: center;
+      padding: 1rem;
+    }
+    nav button {
+      background: #ffffff;
+      color: #4a90e2;
+      border: 2px solid #4a90e2;
+      padding: 0.7rem 1.5rem;
+      margin: 0.4rem;
+      font-size: 1rem;
+      cursor: pointer;
+      border-radius: 25px;
+      transition: background 0.3s, color 0.3s;
+    }
+    nav button:hover {
+      background: #4a90e2;
+      color: #fff;
+    }
+    main {
+      max-width: 960px;
+      margin: 2rem auto;
+      padding: 1rem;
+      background-color: #ffffff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+      border-radius: 10px;
+    }
+    section {
+      margin-bottom: 2rem;
+    }
+    h2 {
+      color: #4a90e2;
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+    img.reference {
+      width: 100%;
+      max-width: 500px;
+      margin: 1rem auto;
+      display: block;
+      border-radius: 8px;
+    }
+    footer {
+      background: #4a90e2;
+      color: #ffffff;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      margin-top: 2rem;
+    }
+    ul.sources li {
+      font-size: 0.9rem;
+    }
+
+    /* Media queries para hacerlo responsivo */
+    @media (max-width: 768px) {
+      header img {
+        width: 150px;
+      }
+      nav button {
+        padding: 0.5rem 1rem;
+        font-size: 0.9rem;
+      }
+      main {
+        margin: 1rem;
+        padding: 0.8rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      header img {
+        width: 120px;
+      }
+      nav button {
+        padding: 0.5rem 1rem;
+        font-size: 0.8rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <!-- Aquí va tu logotipo en base64 o en URL -->
+    <img src="data:image/jpeg;base64,/* Aquí va tu logotipo en Base64 */" alt="Logo GlauCAM">
+  </header>
+
+  <nav>
+    <button onclick="location.href='#problema'">Problemática</button>
+    <button onclick="location.href='#propuesta'">Propuesta</button>
+    <button onclick="location.href='#deteccion'">¿Qué es el Glaucoma?</button>
+    <button onclick="location.href='#organigrama'">Organigrama</button>
+    <button onclick="location.href='#fuentes'">Fuentes</button>
+  </nav>
+
+  <main>
+    <section id="problema">
+      <h2>La Problemática</h2>
+      <p>Descripción de la problemática relacionada con el glaucoma y su impacto en la salud.</p>
+      <!-- Puedes agregar más contenido aquí -->
+    </section>
+
+    <section id="propuesta">
+      <h2>Propuesta de GlauCAM</h2>
+      <p>Explicación de la propuesta tecnológica para la detección temprana de glaucoma.</p>
+      <!-- Más contenido aquí -->
+    </section>
+
+    <section id="deteccion">
+      <h2>¿Qué es el Glaucoma?</h2>
+      <p>Información relevante sobre el glaucoma, sus tipos, síntomas, y diagnóstico.</p>
+      <!-- Más detalles -->
+    </section>
+
+    <section id="organigrama">
+      <h2>Organigrama del Proyecto</h2>
+      <img class="reference" src="organigrama.png" alt="Organigrama del Proyecto">
+    </section>
+
+    <section id="fuentes">
+      <h2>Fuentes</h2>
+      <ul class="sources">
+        <li>Fuente 1: Descripción de la fuente o referencia</li>
+        <li>Fuente 2: Detalles de la referencia bibliográfica o web</li>
+        <!-- Más fuentes aquí -->
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 GlauCAM – Todos los derechos reservados</p>
+  </footer>
+
+</body>
+</html>
